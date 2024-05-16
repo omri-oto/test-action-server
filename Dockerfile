@@ -1,5 +1,5 @@
 # Use a base image with curl installed
-FROM --platform=linux/amd64 ubuntu:20.04
+FROM --platform=linux/arm64/v8 ubuntu:20.04
 
 # Set the working directory
 WORKDIR /app
